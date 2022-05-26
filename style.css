@@ -1,0 +1,384 @@
+::-webkit-scrollbar{
+  width: 7px;
+}
+::-webkit-scrollbar-track{
+  background: #254F8B; 
+}
+::-webkit-scrollbar-thumb{
+  background: white; 
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #555; 
+}
+::-webkit-scrollbar-corner{
+  background: #254F8B;
+}
+body, html {
+  height: 100%;
+}
+#front-text{
+  background-image: url(https://d1lss44hh2trtw.cloudfront.net/assets/article/2020/07/21/canary-launch-keyart_feature.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navLink{
+  font-weight: 400 !important;
+}
+.item-front{
+  width: 40%;
+}
+.item{
+  width: 40%;
+}
+@media only screen and (max-width: 768px){
+  .item{
+    width: 70%;
+  }
+}
+.bg-main-1{
+  color: white;
+  background-image: url(https://images.gamewatcherstatic.com/image/file/3/12/109143/Risk-of-Rain-5.jpg);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-main-1 h3{
+  font-weight: 100;
+}
+.bg-main-2{
+  color: white;
+  background-image: url(https://d1lss44hh2trtw.cloudfront.net/assets/editorial/2020/08/risk-of-rain-2-evironment.jpg);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-main-2 h3{
+  font-weight: 100;
+}
+.navLink{
+  background-image: linear-gradient(#6ABDD7, #6ABDD7);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0% 55%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+  transition: background-size .3s ease, color .3s, background-repeat .3s;
+}
+.navLink:hover{
+  background-repeat: no-repeat;
+  background-size: 100% 7px;
+  border-radius: 0px;
+  color: #102330;
+}
+.navLink h3{
+  padding-top: 5px;
+}
+.aspect-ratio{
+  position: relative;
+  padding-top: 40%;
+  width: 40%;
+}
+.flip-skill {
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+}
+.flip-skill-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-skill:hover .flip-skill-inner{
+  transform: rotateY(180deg);
+}
+.flip-skill-front, .flip-skill-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-skill-front{
+  background-color: #bbb;
+  color: black;
+}
+.flip-skill-back{
+  overflow: scroll;
+  padding: 3px;
+  background-color: #254F8B;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-skill-front img{
+  width: 100%;
+  height: 100%;
+}
+.char-nav{
+  background-image: url(https://www.gamesidestory.com/wp-content/uploads/2020/08/20200814162620_1-1024x576.jpg), linear-gradient(black, black);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.char-nav .nav-items h3{
+  color: white;
+}
+.characters-main .pb-5{
+  background-image: url(https://www.gamesidestory.com/wp-content/uploads/2020/08/20200814162620_1-1024x576.jpg), linear-gradient(black, black);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.charPanel{
+  transition: flex-grow .5s ease-out;
+  border-left-style: solid;
+  border-right-style: solid;
+  height: 100%;
+  text-align: center;
+  flex-grow: 1;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  color: white;
+}
+.charPanel:hover{
+  flex-grow: 10;
+}
+.charPanel > div{
+  display: none;
+}
+.charPanel:hover > div{
+  display: inline;
+}
+.charBtn{
+  position: relative;
+  top: 70%;
+}
+.resp-sidebar .nav-item{
+  background-position: 50% 50%;
+  background-size: 0% 0%;
+  outline: 3px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  transition: background-size .2s;
+}
+.resp-sidebar .nav-item:hover{
+  background-size: 100% 100%;
+}
+.resp-sidebar li{
+  background-color: white;
+  transition: background-size .2s;
+}
+.resp-sidebar a{
+  color: black;
+  text-decoration: none;
+}
+.li-1:hover{
+  background-color: #e99829;
+}
+.char-main-1{
+  background-color: #e99829;
+}
+.li-2:hover{
+  background-color: #cc3f3e;
+}
+.char-main-2{
+  background-color: #cc3f3e;
+}
+.li-3:hover{
+  background-color: #d3c34f;
+}
+.char-main-3{
+  background-color: #d3c34f;
+}
+.li-4:hover{
+  background-color: #5de484;
+}
+.char-main-4{
+  background-color: #5de484;
+}
+.li-5:hover{
+  background-color: #f1c2f7;
+}
+.char-main-5{
+  background-color: #f1c2f7;
+}
+.li-6:hover{
+  background-color: #6cd1eb;
+}
+.char-main-6{
+  background-color: #6cd1eb;
+}
+.li-7:hover{
+  background-color: #849f58;
+}
+.char-main-7{
+  background-color: #849f58;
+}
+.li-8:hover{
+  background-color: #6b6fda;
+}
+.char-main-8{
+  background-color: #6b6fda;
+}
+.li-9:hover{
+  background-color: #b1d066;
+}
+.char-main-9{
+  background-color: #b1d066;
+}
+.li-10:hover{
+  background-color: #9f9c7b;
+}
+.char-main-10{
+  background-color: #9f9c7b;
+}
+.li-11:hover{
+  background-color: #aa68b2;
+}
+.char-main-11{
+  background-color: #aa68b2;
+}
+.li-12:hover{
+  background-color: #096aab;
+}
+.char-main-12{
+  background-color: #096aab;
+}
+.char-1{
+  background-image: url(characters/Commando.jpg), linear-gradient(black, black); 
+}
+.char-2{
+  background-image: url(characters/Huntress.png), linear-gradient(black, black);  
+}
+.char-3{
+  background-image: url(characters/MUL-T.png), linear-gradient(black, black); 
+}
+.char-4{
+  background-image: url(characters/Engineer.png), linear-gradient(black, black); 
+}
+.char-5{
+  background-image: url(characters/Artificer.png), linear-gradient(black, black); 
+}
+.char-6{
+  background-image: url(characters/Mercenary.jpg), linear-gradient(black, black);
+}
+.char-7{
+  background-image: url(characters/Rex.png), linear-gradient(black, black);
+}
+.char-8{
+  background-image: url(characters/Loader.png), linear-gradient(black, black);
+}
+.char-9{
+  background-image: url(characters/Acrid.png), linear-gradient(black, black);
+}
+.char-10{
+  background-image: url(characters/Captain.png), linear-gradient(black, black);
+}
+.char-11{
+  background-image: url(characters/Bandit.png), linear-gradient(black, black);
+}
+.char-12{
+  background-image: url(characters/Heretic.png), linear-gradient(black, black);
+}
+#front-item{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(ror2bg.png);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+#front-item h3{
+  font-weight: 100;
+}
+#front-item .nav-items h3{
+  font-weight: 500;
+  color: white;
+}
+#item-stats{
+  position: sticky;
+  top: 40px;
+}
+.d-none{
+  display: none;
+}
+.show{
+  display: block;
+}
+.item-inner{
+  background: black;
+}
+#item-grid img{
+  width: 90px;
+  height: 90px;
+  border: 0px solid yellow;
+  transition: border .2s;
+}
+#item-grid img:hover{
+  border: 4px solid yellow;
+}
+#front-lore{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.mos.cms.futurecdn.net/b5m7pStoFKHYSDoi4ZgFN8.jpg);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lore-front h3{
+  font-weight: 400;
+}
+.bg-lore-1{
+  background-image: url(https://www.pcinvasion.com/wp-content/uploads/2020/04/Risk-of-Rain-2-Artifacts-guide-Artifact-locations-codes-combination-effects-modifiers-15-a-moment-whole.jpg);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-lore-1 h3{
+  font-weight: 400;
+}
+.bg-lore-2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.wingamestore.com/images_screenshots/risk-of-rain-2-80755.jpg);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:  white;
+}
+.bg-lore-2 h3{
+  font-weight: 400;
+}
+.lore-log{
+  height: 500px;
+  overflow: scroll;
+}

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Risk of Rain 2 Fan Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="front-item">
+      <div class="nav-bar-main p-3 d-none d-sm-flex">
+        <a class="nav-img" href="index.html">
+          <img src="https://www.riskofrain.com/wp-content/uploads/2019/04/ror2_logo_512-1.png" alt="Risk of Rain 2" style="width:200px;"> 
+        </a>
+        <div class="flex-grow w-100 d-flex flex-column justify-content-center">
+          <div class="d-flex justify-content-around nav-items">
+            <a class="navLink" href="characters.html"><h3>Survivors</h3></a>
+            <a class="navLink" href="items.html"><h3>Items</h3></a>
+            <a class="navLink" href="lore.html"><h3>Lore</h3></a>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-sm d-sm-none navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="nav-img" href="index.html">
+            <img src="https://www.riskofrain.com/wp-content/uploads/2019/04/ror2_logo_512-1.png" alt="Risk of Rain 2" style="width:200px;"> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="characters.html">Survivors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="items.html">Items</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lore.html">Lore</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    
+      <h1 class="text-center display-1">How Items Work</h1>
+      <div class="d-md-flex justify-content-around flex-wrap">
+        <div class="p-3 mx-auto my-3 item text-center">
+          <h3>Players can get items in a variety of ways, the most commmon is by opening the chests on the map. Different chests have different chances to give rarer items. There are a multitude of different items, each with unique effects that interact in different ways with each other.</h3>
+        </div>
+        <div class="p-3 mx-auto my-3 item text-center">
+          <h3>Items can help players get stronger to progress through stages easier, but sometimes you will receive items that don't improve your build or even hinder your character. In those cases, players can scrap these items and use the scrap at printers to print new items.</h3>
+        </div>
+        <div class="p-3 mx-auto my-3 item text-center">
+          <h3>There are 6 types of items, common, uncommon, legendary, boss, lunar, and equipment. Common, uncommon, and legendary all drop from world chests and can be found soup pots on the moon and in the bazzar. Soup pots let players trade in scrap or random items for the soup item. Equipment goes in the equipment slot and is an activatable item. Boss items have a chance to spawn when you kill their associated teleporter boss. Lunar items are found in lunar pods or purchased in the bazzar. Lunar items require lunar coins to purchase them; a rare drop that, unlike normal currency, doesn't reset after runs. All lunar items come with negatives, for example, shaped glass doubles all damage, but halves your total health.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-dark pt-3">
+
+      <div class="d-flex flex-wrap justify-content-center py-5" id="item-grid">
+        <!-- Common 0-25 -->
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Repulsion Armor Plate" data-bs-content="Reduce all incoming damage by 5 (+5 per stack). Cannot be reduced below 1.">
+          <img src="https://ror2.nikurasu.org/img/armor.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Topaz Brooch" data-bs-content="Gain a temporary barrier on kill for 15 health (+15 per stack).">
+          <img src="https://ror2.nikurasu.org/img/shieldBrooch.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Tougher Times" data-bs-content="15% (+15% per stack) chance to block incoming damage. Unaffected by the luck.">
+          <img src="https://ror2.nikurasu.org/img/bear.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Trip-Tip Dagger" data-bs-content="10% (+10% per stack) chance to bleed an enemy for 240% base damage.">
+          <img src="https://ror2.nikurasu.org/img/tritip.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Armor-Piercing Rounds" data-bs-content="Deal an additional 20% damage (+20% per stack) to bosses.">
+          <img src="https://ror2.nikurasu.org/img/bossDamage.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lens-Maker's Glasses" data-bs-content="Your attacks have a 10% (+10% per stack) chance to "Critically Strike", dealing double damage.">
+          <img src="https://ror2.nikurasu.org/img/glasses.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Crowbar" data-bs-content="Deal 75% (+75% per stack) damage to enemies above 90% health.">
+          <img src="https://ror2.nikurasu.org/img/crowbar.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Bundle of Fireworks" data-bs-content="Opening a chest launches 8 (+4 per stack) fireworks that deal 300% base damage.">
+          <img src="https://ror2.nikurasu.org/img/firework.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Fresh Meat" data-bs-content="Increases maximum health by 25 (+25 per stack).">
+          <img src="https://ror2.nikurasu.org/img/steak.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Cautious Slug" data-bs-content="Increases base health regeneration by +3 hp/s (+3 hp/s per stack) while outside of combat.">
+          <img src="https://ror2.nikurasu.org/img/slug.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Paul's Goat Hoof" data-bs-content="Increases movement speed by 14% (+14% per stack).">
+          <img src="https://ror2.nikurasu.org/img/goat.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Gasoline" data-bs-content="Killing an enemy ignites all enemies within 12m (+4 per stack). Ennemies burn for 150% (+75% per stack) base damage.">
+          <img src="https://ror2.nikurasu.org/img/gasoline.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Medkit" data-bs-content="2 seconds after getting hurt, heal for 20 plus an additional 5% (+5% per stack) of maximum health.">
+          <img src="https://ror2.nikurasu.org/img/medkit.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Bustling Fungus" data-bs-content="After standing still for 2 seconds create a zone that heals for 4.5% (+2.25% per stack) of your health every second to all allies within 3m (+1.5m per stack).">
+          <img src="https://ror2.nikurasu.org/img/fungus.png" alt="">
+        </span>
+        
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Focus Crystal" data-bs-content="Increase damage to enemies withing 13m by 20% (+20% per stack).">
+          <img src="https://ror2.nikurasu.org/img/redCrystal.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Personal Shield Generator" data-bs-content="Gain a shield equal to 8% (+8% per stack) of your maximum healt. Recharges outside of danger.">
+          <img src="https://ror2.nikurasu.org/img/shield.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Item Scrap, White" data-bs-content="Does nothing. Prioritized when used with 3D Printers.">
+          <img src="https://ror2.nikurasu.org/img/scraps1.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Backup Magazine" data-bs-content="Add +1 (+1 per stack) charge of your Secondary skill.">
+          <img src="https://ror2.nikurasu.org/img/backupMag.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Energy Drink" data-bs-content="Sprint speed is improved by 25% (+25% per stack).">
+          <img src="https://ror2.nikurasu.org/img/drink.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Sticky Bomb" data-bs-content="5% (+5% per stack) chance on hit to attach a bomb to an enemy, detonating for 180% TOTAL damage.">
+          <img src="https://ror2.nikurasu.org/img/stickyBomb.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Stun Grenade" data-bs-content="5% (+5% per stack) chance on hit to stun enemies for 2 seconds.">
+          <img src="https://ror2.nikurasu.org/img/stunGrenade.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Soldier's Syringe" data-bs-content="Increase Attack Speed by 15% (+15% per stack).">
+          <img src="https://ror2.nikurasu.org/img/syringe.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Monster Tooth" data-bs-content="Killing an ennemy spawns a healing orb that heals for 8 plus an additional 2% (+2% per stack) of maximum health.">
+          <img src="https://ror2.nikurasu.org/img/monsterTooth.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Rusted Key" data-bs-content="A hidden cache containing an item (80% uncommon/20% legendary) will appear in a random location on each stage.">
+          <img src="https://ror2.nikurasu.org/img/key.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Warbanner" data-bs-content="On level up or starting the Teleporter event, drop a banner that strengthens all allies within 16m (+8m per stack). Raise attack and movement speed by 30%.">
+          <img src="https://ror2.nikurasu.org/img/warbanner.png" alt="">
+        </span>
+        <!-- Uncommon 26-51 -->
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Predatory Instincts" data-bs-content="Critical Strikes increase attack speed by 12%. Maximum cap of 36% (+24% per stack) attack speed">
+          <img src="https://ror2.nikurasu.org/img/hat.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Bandolier" data-bs-content="18% (+10% per stack) chance on kill to drop an ammo pack that resets all cooldowns.">
+          <img src="https://ror2.nikurasu.org/img/bandolier.png" alt="">
+        </span>
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Ghor's Tome" data-bs-content="4% (+4% per stack) chance on kill to drop a treasure worth 25$. Scales over time.">
+          <img src="https://ror2.nikurasu.org/img/goldBook.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Ukulele" data-bs-content="25% chance to fire a chain lightning for 80% TOTAL damage up to 3 (+2 per stack) targets within 20m (+2m per stack).">
+          <img src="https://ror2.nikurasu.org/img/ukulele.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Death Mark" data-bs-content="Enemies with 4 or more debuffs are marked for death, increasing damage taken by 50% from all sources for 7 (+7 per stack) seconds.">
+          <img src="https://ror2.nikurasu.org/img/deathMark.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="War Horn" data-bs-content="Activating your Equipment gives you +70% attack speed for 8s (+4s per stack).">
+          <img src="https://ror2.nikurasu.org/img/warHorn.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Fuel Cell" data-bs-content="Hold an additional equipment charge (+1 per stack). Reduce equipment cooldown by 15% (+15% per stack).">
+          <img src="https://ror2.nikurasu.org/img/cell.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Old Guillotine" data-bs-content="Instantly kill Elite Monsters below 13% (+13% per stack) health.">
+          <img src="https://ror2.nikurasu.org/img/guillotine.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Will-O'-the-wisp" data-bs-content="On killing an enemy, spawn a lava pillar in a 12m (+2.4m per stack) radius for 350% (+280% per stack) base damage.">
+          <img src="https://ror2.nikurasu.org/img/wisp.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Hopoo Feather" data-bs-content="Gain +1 (+1 per stack) maximum jump count.">
+          <img src="https://ror2.nikurasu.org/img/feather.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Kjaro's Band" data-bs-content="Hits that deals more than 400% damage also blasts enemies with a runic flame tornado, dealing 300% (+300% per stack) TOTAL damage over time. Recharge every 10 seconds.">
+          <img src="https://ror2.nikurasu.org/img/fireRing.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Harvester's Scythe" data-bs-content="Gain 5% critical chance. Critical strikes heal for 8 (+4 per stack) health.">
+          <img src="https://ror2.nikurasu.org/img/scythe.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Runald's Band" data-bs-content="Hits that deals more than 400% damage also blasts enemies with a runic ice blast, slowing them by 80% for 3s (+3s per stack) and dealing 250% (+250% per stack) TOTAL damage. Recharge every 10 seconds.">
+          <img src="https://ror2.nikurasu.org/img/iceRing.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Infusion" data-bs-content="Killing an enemy increases your health permanently by 1, up to a maximum of 100 (+100 per stack) health.">
+          <img src="https://ror2.nikurasu.org/img/infusion.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Wax Quail" data-bs-content="Jumping while sprinting boosts you forward by 10m (+10m per stack).">
+          <img src="https://ror2.nikurasu.org/img/quail.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="AtG Missile Mk. 1" data-bs-content="10% chance to fire a missile that deals 300% (+300% per stack) TOTAL damage.">
+          <img src="https://ror2.nikurasu.org/img/missile_mk.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Old War Stealthkit" data-bs-content="Falling below 25% health causes you to gain 40% movement speed and invisibility for 5s. Recharges every 30 seconds (-50% per stack).">
+          <img src="https://ror2.nikurasu.org/img/phasing.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Item Scrap, Green" data-bs-content="Does nothing. Prioritized when used with 3D Printers.">
+          <img src="https://ror2.nikurasu.org/img/scraps2.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Leeching Seed" data-bs-content="Dealing damage heals you for 1 (+1 per stack) health.">
+          <img src="https://ror2.nikurasu.org/img/seed.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Chronobauble" data-bs-content="Slow enemies for -60% movement speed for 2s (+2s per stack).">
+          <img src="https://ror2.nikurasu.org/img/bauble.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Rose Buckler" data-bs-content="Increase armor by 30 (+30 per stack) while sprinting.">
+          <img src="https://ror2.nikurasu.org/img/buckler.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Red Whip" data-bs-content="Leaving combat boosts movement speed by 30% (+30% per stack).">
+          <img src="https://ror2.nikurasu.org/img/whip.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Squid Polyp" data-bs-content="Activating an interactable summons a Squid Turret that attacks nearby enemies at 100% (+100% per stack) attack speed. Lasts 30 seconds.">
+          <img src="https://ror2.nikurasu.org/img/squidTurret.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Lepton Daisy" data-bs-content="Release a healing nova during the Teleporter event, healing all nearby allies for 50% of their maximum health. Occurs 1 (+1 per stack) times.">
+          <img src="https://ror2.nikurasu.org/img/healFlower.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Razorwire" data-bs-content="Getting hit causes you to explode in a burst of razors, dealing 160% damage. Hits up to 5 (+2 per stack) targets in a 25m (+10m per stack) radius.">
+          <img src="https://ror2.nikurasu.org/img/razorHeadband.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Berzerker's Pauldron" data-bs-content="Killing 3 enemies within 1 second sends you into a frenzy for 6s (+4s per stack). Increases movement speed by 50% and attack speed by 100%.">
+          <img src="https://ror2.nikurasu.org/img/berzerk.png" alt="">
+        </span>
+        <!-- Legendary 52-73 -->
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Alien Head" data-bs-content="Reduce skill cooldown by 25% (+25% per stack).">
+          <img src="https://ror2.nikurasu.org/img/alien.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Shattering Justice" data-bs-content="After hitting an enemy 5 times, reduce their armor by 60 for 8 (+8 per stack) seconds.">
+          <img src="https://ror2.nikurasu.org/img/hammer.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Aegis" data-bs-content="Healing past full grants you a temporary barrier for up to 50% (+50% per stack) of the amount you healed.">
+          <img src="https://ror2.nikurasu.org/img/fullBarrier.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Brilliant Behemoth" data-bs-content="All your attacks explode in a 4m (+1.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.">
+          <img src="https://ror2.nikurasu.org/img/behemoth.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Sentient Meat Hook" data-bs-content="20% (+20% per stack) chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100% TOTAL damage.">
+          <img src="https://ror2.nikurasu.org/img/hook.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Defensive Microbots" data-bs-content="Shoot down 1 (+1 per stack) projectiles within 20m every 0.5 seconds. Recharge rate scales with attack speed.">
+          <img src="https://ror2.nikurasu.org/img/microbot.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="57 Leaf Clover" data-bs-content="All random effects are rolled +1 (+1 per stack) times for a favorable outcome.">
+          <img src="https://ror2.nikurasu.org/img/clover.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Ceremonial Dagger" data-bs-content="Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.">
+          <img src="https://ror2.nikurasu.org/img/dagger.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Dio's Best Friend" data-bs-content="Upon Death, this item will be consumed and you will return to life with 3 seconds of invulnerability.">
+          <img src="https://ror2.nikurasu.org/img/dio.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="H3AD-5T v2" data-bs-content="Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000%-10000% base damage that scales up with fall distance. Recharges in 10 (-50% per stack) seconds.">
+          <img src="https://ror2.nikurasu.org/img/cuffs.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Happiest Mask" data-bs-content="Killing enemies has a 7% chance to spawn a ghost of the killed enemy with 1500% damage. Lasts 30s (+30s per stack).">
+          <img src="https://ror2.nikurasu.org/img/mask.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Wake of Vultures" data-bs-content="Gain the power of any killed elite monster for 8s (+5s per stack).">
+          <img src="https://ror2.nikurasu.org/img/headhunter.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Frost Relic" data-bs-content="Killing an enemy surrounds you with an ice storm that deals 600% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing it's radius by 1m. Stacks up to 6m (+6m per stack).">
+          <img src="https://ror2.nikurasu.org/img/ice.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Rejuvenation Rack" data-bs-content="Heal +100% (+100% per stack) more.">
+          <img src="https://ror2.nikurasu.org/img/horn.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Brainstalks" data-bs-content="Upon killing an elite monster, enter a frenzy for 4s (+4s per stack) where skills have no cooldowns.">
+          <img src="https://ror2.nikurasu.org/img/brain.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Resonance Disc" data-bs-content="Killing 4 enemies in 7 seconds charges the Resonance Disc. The disc launches itself toward a target for 300% base damage (+300% per stack), piercing all enemies it doesn't kill, and then explodes for 1000% base damage (+1000% per stack). Returns to the user, striking all enemies along the way for 300% base damage (+300% per stack).">
+          <img src="https://ror2.nikurasu.org/img/disc.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="N'kuhana's Opinion" data-bs-content="Store 100% (+100% per stack) of healing as Soul Energy. After your Soul Energy reaches 10% of your maximum health, fire a skull that deals 250% of your Soul Energy as damage.">
+          <img src="https://ror2.nikurasu.org/img/opinion.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Interstellar Desk Plant" data-bs-content="On kill, plant a healing fruit seed that grows into a plant after 5 seconds. The plant heals for 10% of maximum health every second to all allies withing 5m (+5m per stack). Last 10 seconds.">
+          <img src="https://ror2.nikurasu.org/img/deskPlant.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Item Scrap, Red" data-bs-content="Does nothing. Prioritized when used with 3D Printers.">
+          <img src="https://ror2.nikurasu.org/img/scraps3.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Unstable Tesla Coil" data-bs-content="Fire out lightning that hits 3 (+2 per stack) enemies for 200% base damage every 0.5s. The Tesla Coil switches off every 10 seconds.">
+          <img src="https://ror2.nikurasu.org/img/tesla.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Souldbound Catalyst" data-bs-content="Kills reduce equipment cooldown by 4s (+2s per stack).">
+          <img src="https://ror2.nikurasu.org/img/soul.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Hardlight Afterburner" data-bs-content="Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33%.">
+          <img src="https://ror2.nikurasu.org/img/burner.png" alt="">
+        </span>
+        <!-- Boss 74-88 -->
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Artifact Key" data-bs-content="A stone shard with immense power.">
+          <img src="https://ror2.nikurasu.org/img/artifactKey.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Queen's Gland" data-bs-content="Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.">
+          <img src="https://ror2.nikurasu.org/img/beetle.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Shatterspleen" data-bs-content="Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.">
+          <img src="https://ror2.nikurasu.org/img/critBleed.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Molten Perforator" data-bs-content="10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each.">
+          <img src="https://ror2.nikurasu.org/img/magmaTooth.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Titanic Knurl" data-bs-content="Increases maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).">
+          <img src="https://ror2.nikurasu.org/img/knurl.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Charged Perforator" data-bs-content="10% chance on hit to do down a lightning strike, dealing 500% (+500% per stack) damage.">
+          <img src="https://ror2.nikurasu.org/img/whiteHook.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Genesis Loop" data-bs-content="Falling below 25% health causes you to explode, dealing 6000% base damage. Recharges every 30 seconds (-50% per stack).">
+          <img src="https://ror2.nikurasu.org/img/weirdTail.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Planula" data-bs-content="Heal from incoming damage for 15 (+15 per stack)">
+          <img src="https://ror2.nikurasu.org/img/magmaEgg.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Pearl" data-bs-content="Increases maximum health by 10% (+10% per stack).">
+          <img src="https://ror2.nikurasu.org/img/pearl.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Empathy Cores" data-bs-content="Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team">
+          <img src="https://ror2.nikurasu.org/img/doubleDrone.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Item Scrap, Yellow" data-bs-content="Does nothing. Prioritized when used with 3D Printers.">
+          <img src="https://ror2.nikurasu.org/img/scraps4.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Irradiant Pearl" data-bs-content="Increases ALL stats by 10% (+10% per stack).">
+          <img src="https://ror2.nikurasu.org/img/shinyPearl.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Mired Urn" data-bs-content="While in combat, the nearest 1 (+1 per stack) characters to you within 13m whill be "tethered" to you, dealing 100% damage per second, applying tar, and healing your for 100% of the damage dealt.">
+          <img src="https://ror2.nikurasu.org/img/tarUrn.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Little Disciple" data-bs-content="Fire a tracking wisp for 300% (+300% per stack) damage. Fires every 1.6 seconds while sprinting. Fire rate increases with movement speed.">
+          <img src="https://ror2.nikurasu.org/img/sprintingWisp.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Halcyon Seed" data-bs-content="Summon Aurelionite during the teleporter event. It has 100% (+50% per stack) damage and 100% (+100% per stack) health.">
+          <img src="https://ror2.nikurasu.org/img/goldenSeed.png" alt="">
+        </span>
+        <!-- Lunar 89-102 -->
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Gesture of the Drowned" data-bs-content="Reduce equipment cooldown by 50% (+15% per stack). Forces your Equipment to activate whenever it is off cooldown.">
+          <img src="https://ror2.nikurasu.org/img/fossil.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Focused Convergence" data-bs-content="Teleporters charge 30% (+30% per stack) faster, but the size of the Teleporter zone is 50% (-50% per stack) smaller.">
+          <img src="https://ror2.nikurasu.org/img/orb.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Brittle Crown" data-bs-content="30% chance on hit to gain 2 (+2 per stack) gold. Scales over time. Lose gold equal to 100% (+100% per stack) of amount your are hit for OR lose % gold equal to 100% (+100% per stack) of the maximum health % you lost. Chooses the greater of the two.">
+          <img src="https://ror2.nikurasu.org/img/crown.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Purity" data-bs-content="All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.">
+          <img src="https://ror2.nikurasu.org/img/snowflake.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Shaped Glass" data-bs-content="Increase base damage by 100% (+100% per stack). Reduce maximum health by 50% (+50% per stack).">
+          <img src="https://ror2.nikurasu.org/img/sword.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Visions of Heresy" data-bs-content="Replace your Primary Skill with Hungering Gaze. Fire a flurry of tracking shards that detonate after a delay, dealing 120% base damage. Hold up to 12 charges (+12 per stack) that reload after 2 seconds (+2 per stack).">
+          <img src="https://ror2.nikurasu.org/img/weirdOrb.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Hook of Heresy" data-bs-content="Replace your Secondary Skill with Slicing Maelstrom. Charge up a projectile that deals 175% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.">
+          <img src="https://ror2.nikurasu.org/img/purpleBlade.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Essence of Heresy" data-bs-content="Replace your Special Skill with Ruin. Dealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stack at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.">
+          <img src="https://ror2.nikurasu.org/img/ocarina.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Beads of Fealty" data-bs-content="Seems to do nothing... but...">
+          <img src="https://ror2.nikurasu.org/img/beads.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Strides of Heresy" data-bs-content="Replace your Utility Skill with Shadowfade. Fade away, becoming intangible and gaining +30% movement speed. Heal for 25% (+25% per stack) of your maximum health. Lasts 3 (+3 per stack) seconds.">
+          <img src="https://ror2.nikurasu.org/img/weirdArm.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Defiant Gouge" data-bs-content="Using a Shrine summons enemies nearby. Scales over time.">
+          <img src="https://ror2.nikurasu.org/img/tools.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Mercurial Rachis" data-bs-content="Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.">
+          <img src="https://ror2.nikurasu.org/img/spin.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Corpsebloom" data-bs-content="Heal +100% (+100% per stack) more. All healing is applied over time. Can heal for a maximum of 10% (-50% per stack) of your health per second.">
+          <img src="https://ror2.nikurasu.org/img/flower.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Transcendence" data-bs-content="Convert all but 1 health into regenerating shields. Gain 50% (+25% per stack) maximum health.">
+          <img src="https://ror2.nikurasu.org/img/transc.png" alt="">
+        </span>
+        <!-- Lunar Equipment 103-106 -->
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Helfire Tincture" data-bs-content="Ignite ALL characters within 8m. Deal 5% of your maximum health/second as burning to yourself. The burn is 0.5x stronger on allies, and 24x stronger on enemies. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/burn.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Effigy of Grief" data-bs-content="ALL characters are slowed by 50% and has their armor reduced by 20. Can place up to 5. Cooldown: 15s">
+          <img src="https://ror2.nikurasu.org/img/slow.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Glowing Meteorite" data-bs-content="Rain meteors from the sky, damaging ALL characters for 600% damage per blast. Last 20 seconds.">
+          <img src="https://ror2.nikurasu.org/img/meteorite.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Spinel Tonic" data-bs-content="Drink the Tonic, gaining a boost for 15 seconds. Increases damage by +100%. Increases attack speed by +70%. Increases armor by +20. Increases maximum health by +50%. Increases passive health regeneration by +300%. Increases movespeed by +30%. When the tonic wears off, you have 20% chance to gain a Tonic Affliction, reducing all of your stats by -5% (-5% per stack)">
+          <img src="https://ror2.nikurasu.org/img/tonic.png" alt="">
+        </span>
+        <!-- Equipment 107-126 -->
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Preon Accumulator" data-bs-content="Fires preon tendrils, zapping enemies within 35m up to 600% damage/second. On contact, detonate in an enormous 20m explosion for 4000% damage. Cooldown: 140s">
+          <img src="https://ror2.nikurasu.org/img/beam.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Blackhole" data-bs-content="Fire a black hole that draws enemies within 30m into it's center. Last 10 seconds. Cooldown: 60s">
+          <img src="https://ror2.nikurasu.org/img/blackhole.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Blast Shower" data-bs-content="Cleanse all negative effects. Includes debuffs, damage over time, and nearby projectiles. Cooldown: 20s">
+          <img src="https://ror2.nikurasu.org/img/potThing.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Disposable Missile Launcher" data-bs-content="Fire a swarm of 12 missiles that deal 12x300% damage. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/missile.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Ocular HUD" data-bs-content="Gain +100% Critical Strike Chance for 8 seconds. Cooldown: 60s">
+          <img src="https://ror2.nikurasu.org/img/hud.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Forgive Me Please" data-bs-content="Throw a cursed doll out that triggers any On-kill effects you have every 1 second for 8 seconds. Cooldown: 45">
+          <img src="https://ror2.nikurasu.org/img/voodoo.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="The Back-up" data-bs-content="Call 4 Strike Drones to fight for you. Last 25 seconds. Cooldown: 100s">
+          <img src="https://ror2.nikurasu.org/img/drone.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Volcanic Egg" data-bs-content="Turn into a draconic fireball for 5 seconds. Deal 500% damage on impact. Detonates at the end for 800% damage. Cooldown: 30s">
+          <img src="https://ror2.nikurasu.org/img/egg.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Foreign Fruit" data-bs-content="Instantly heal for 50% of your maximum health. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/fruit.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Jade Elephant" data-bs-content="Gain 500 armor for 5 seconds. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/elephant.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Eccentric Vase" data-bs-content="Create a quantum tunnel of up to 1000m in length. Lasts 30 seconds. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/vase.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="The Crowdfunder" data-bs-content="Fires a continuous barrage that deals 100% damage per bullet. Costs $1 per bullet. Costs increases over time. Cooldown: 5s">
+          <img src="https://ror2.nikurasu.org/img/gatling.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Milky Chrisalis" data-bs-content="Sprout wings and fly for 15 seconds. Gain +20% movement speed for the duration. Cooldown: 60s">
+          <img src="https://ror2.nikurasu.org/img/larva.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Super Massive Leech" data-bs-content="Heal for 20% of the damage you deal. Lasts 8 seconds. Cooldown: 60s">
+          <img src="https://ror2.nikurasu.org/img/leech.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Royal Capacitor" data-bs-content="Call down a lightning strike on a targeted monster, dealing 3000% damage and stunning nearby monsters. Cooldown: 20s">
+          <img src="https://ror2.nikurasu.org/img/lightning.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Gnarled Woodsprite" data-bs-content="Gain a Woodsprite follower that heals for 1.5% of your maximum health/second. Can be sent to an ally to heal them for 10% of their maximum health. Cooldown: 15s">
+          <img src="https://ror2.nikurasu.org/img/spirit.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Recycler" data-bs-content="Transform an Item or Equipment into a different one. Can only be converted in the same tier one time. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/recycler.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Sawmerang" data-bs-content="Throw three large saw blades that slice through enemies for 3x400% damage. Also deals an additional 3x100% damage per second while bleeding enemies. Can strike enemies again on the way back. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/metalSpin.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Radar Scanner" data-bs-content="Reveal all interactables within 500m for 10 seconds. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/radar.png" alt="">
+        </span>
+
+        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Gorag's Opus" data-bs-content="All allies enter a frenzy for 7 seconds. Increases movement speed by 50% and attack speed by 100%. Cooldown: 45s">
+          <img src="https://ror2.nikurasu.org/img/drum.png" alt="">
+        </span>
+      </div>
+    </div>
+
+    <div class="bg-dark text-center text-light p-3">
+    </div>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      var itemStats = document.getElementById("item-stats").childNodes;
+      var itemImgs = document.getElementById("item-grid").childNodes;
+      itemStats[1].classList.add("d-none");
+    </script>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+    </script>
+  </body>
+</html>
